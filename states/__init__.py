@@ -1,1 +1,1 @@
-from .add_moderator_states import AddModeratorStates
+from .create_img_states import CreateImgStates

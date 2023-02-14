@@ -14,5 +14,6 @@ async def commands_handler(message):
                 message.from_user, reply_markup=ReplyKeyboardRemove()
             ),
         )
+
     elif answer == COMMANDS["back"]:
         await main_menu(message, message_text=MESSAGES["main_menu"])
